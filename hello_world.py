@@ -1,0 +1,7 @@
+print('what is you name')
+myname = input()
+print('Hi ' + myname + '! nice to meet you') 
+print(myname + ' how old are you?')
+myage = input()
+print(' so your name is '+myname+' and you are '+myage+' years old?')
+print(' That means that the lengh of your name is ' + str(len(myname)) + ' characters and you will be ' + str(int(myage)+1)+' on your next birthday' )
